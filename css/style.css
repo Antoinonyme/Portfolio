@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Avenir Next";
+    src: url(/System/Library/Fonts/Avenir.ttc);
+}
+
+body {
+    font-family: "Avenir";
+    color: #333;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    font-size: 48px;
+    text-align: center;
+    border: solid 1px #333;
+    border-radius: 50px;
+    width: 980px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: 3px overline #6FA25A;
+}
+
+.main {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titre {
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 0px;
+}
+
+h3{
+    font-size: 32px;
+    margin: 0px;
+    font-variant-caps: small-caps ;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px ;
+}
+
+.content {
+    font-size: 24px;
+    border: solid #6FA25A 3px;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contexte {
+    width: 900px;
+    font-size: 20px;
+    margin: 40px 25vw;
+    text-align: center;
+}
+
+.etapes {
+    width: 100vw;
+    height: 800px;
+    background-color: #D67D60;
+    display: flex ;
+    flex-direction: row;   
+}
+
+.video {
+    margin: 140 0 0 40px;
+}
+
+.explication {
+    font-size: 24px;
+    width: 600px;
+    height: auto;
+    margin: 70 0 0 100px;
+}
+
+.dev {
+    font-size: 24px;
+    width: 1200px;
+    margin: 30 40 0 40px;
+}
+
+.link {
+    font-size: 20px;
+    text-align: center;
+}
